@@ -1,0 +1,20 @@
+/*Story CSS*/
+.chapterHead{
+    text-align: center;
+    padding: 5px;
+    font-family: 'EB Garamond', serif;
+}
+.chapterHead hr{
+    width: 40%;
+    position: absolute;
+    left: 30%;
+}
+.chapterHead h2{
+    color: #d40000;
+    font-family: 'EB Garamond', serif;
+}
+.chapterHead h3{
+    color: #d40000;
+    font-family: 'EB Garamond', serif;
+    padding: 10px;
+}

@@ -2,16 +2,46 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <title>Kaleidoscope@Home</title>
+        <title>Kathu Productions - Home</title>
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="framework.css">
-        
+        <link href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="webTitle">
-            <h1>Kaleidoscope</h1>
+            <h1>Kathu Productions</h1>
         </div>
+        <nav class="header" id="myHeader">
+            <li class="dropdown"><a class="dropbtn" href="#"><div class="icon">
+                <hr>
+                <hr>
+                <hr>
+            </div>
+        </a>
+                <div class="dropdown-content">
+                    <a href="index.html">Home</a>
+                    <a href="adventure.html">open</a>
+                    <a href="starbreaker_table.html">The Star Breaker</a>
+                    <a href="board.html">Board</a>
+                </div>
+            </li>
 
+        </nav>
+        <!--
+        <section class="">
+
+            <h1 class="head">Stories</h1>
+            <div class="auto-slider">
+                <ul class="auto-slider_content">
+                    <li><img src="img/porg.jpg" alt=""></li>
+                    <li><img src="img/PS1.jpg" alt=""></li>
+                    <li><img src="img/fairy_star.png" alt=""></li>
+                    <li><img src="img/porg.jpg" alt=""></li>
+                </ul>
+            </div>
+        </section>
+        -->
         <section>
             <div class="container content">
                 <div class="row">
@@ -51,8 +81,21 @@
         </section>
 
         <footer>
-            By m00n
+            footer
         </footer>
+        <script>
+window.onscroll = function() {myFunction()};
 
+    var header = document.getElementById("myHeader");
+    var sticky = header.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+    </script>
     </body>
 </html>
